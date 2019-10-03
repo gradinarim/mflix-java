@@ -62,6 +62,8 @@ public class UserPreferencesTest extends TicketTest {
 
     User user = dao.getUser(email);
 
+    System.out.println(user.getPreferences());
+
     Assert.assertEquals(
         "After an update, the user preferences should be found in the User object",
         expected,
