@@ -1,7 +1,6 @@
 package mflix.api.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.bson.codecs.pojo.annotations.BsonProperty;
 
 import java.util.Map;
 
